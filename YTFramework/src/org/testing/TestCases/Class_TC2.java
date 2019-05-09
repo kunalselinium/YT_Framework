@@ -6,10 +6,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testing.Assertions.Assertt;
 import org.testing.Base.Base;
 import org.testing.Pages.Login;
 import org.testing.Utilities.Logs;
 import org.testing.Utilities.Screenshot;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -29,6 +31,8 @@ public class Class_TC2  extends Base {
 	Thread.sleep(8000);
 	WebElement subscription=cdriver.findElement(By.xpath(pr.getProperty("subscriptions")));
 	subscription.click();
+	String expectedSubsciptionsURL="https://www.youtube.com/feed/subscriptions";
+	Assert.assertTrue(Assertt.ResultCompare1(cdriver.getCurrentUrl(), expectedSubsciptionsURL));
 	Screenshot.takeScreenshot(cdriver, "D:\\YT_ScreenShots\\TC2\\TC2_Passed.png");
 	Logs.takeLogs("Class_TC2", "Test case 2 is passed");
 	} 

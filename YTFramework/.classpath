@@ -62,5 +62,6 @@
 	<classpathentry kind="lib" path="D:/Selenium Jars/selenium-java-3.141.59/client-combined-3.141.59.jar"/>
 	<classpathentry kind="lib" path="D:/Selenium Jars/selenium-java-3.141.59/client-combined-3.141.59-sources.jar"/>
 	<classpathentry kind="lib" path="D:/Selenium Jars/log4j.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Jars/jxl-2.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

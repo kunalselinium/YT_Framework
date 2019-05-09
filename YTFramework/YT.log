@@ -1,14 +1,7 @@
-18/04/2019 10:42:54 INFO  [Class_TC1] Login successfully 
-18/04/2019 10:43:06 INFO  [Screenshot] Screenshot taken successfully 
-18/04/2019 10:43:06 INFO  [Class_TC1] Test case 1 is passed 
-18/04/2019 10:43:51 INFO  [Class_TC2] Login successfully 
-18/04/2019 10:44:04 INFO  [Screenshot] Screenshot taken successfully 
-18/04/2019 10:44:04 INFO  [Class_TC2] Test case 2 is passed 
-18/04/2019 10:44:45 INFO  [Class_TC3] Login successfully 
-18/04/2019 10:44:49 INFO  [VideoPlay] Video played successfully 
-18/04/2019 10:45:00 INFO  [Screenshot] Screenshot taken successfully 
-18/04/2019 10:45:00 INFO  [Class_TC3] Test case 3 is passed 
-18/04/2019 10:45:45 INFO  [Class_TC4] Login successfully 
-18/04/2019 10:45:49 INFO  [VideoPlay] Video played successfully 
-18/04/2019 10:46:01 INFO  [Screenshot] Screenshot taken successfully 
-18/04/2019 10:46:01 INFO  [Class_TC4] Test case 4 is passed 
+27/04/2019 11:20:06 INFO  [] Assertion passed as Actual Result: 'kunalselinium@gmail.com' is equal to Expected Result: 'kunalselinium@gmail.com' 
+27/04/2019 11:20:06 INFO  [Class_TC1] Login successfully 
+27/04/2019 11:20:15 INFO  [] Assertion1 passed as Actual Result: 'https://www.youtube.com/feed/trending' is equal to Expected Result: 'https://www.youtube.com/feed/trending' 
+27/04/2019 11:20:16 INFO  [Screenshot] Screenshot taken successfully 
+27/04/2019 11:20:16 INFO  [Class_TC1] Test case 1 is passed 
+27/04/2019 11:21:14 INFO  [Screenshot] Screenshot taken successfully 
+27/04/2019 11:21:14 INFO  [Class_TC3] Test case 3 is failed 

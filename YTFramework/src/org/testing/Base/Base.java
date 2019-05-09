@@ -13,8 +13,8 @@ public class Base {
 public ChromeOptions options;	
 public ChromeDriver cdriver;
 public Properties pr;
-
-	
+//public String expecteduserid="kunalselinium@gmail.com";
+//public String expectedtitle="YouTube";	
 	 
 @BeforeMethod  
 	public void BrowserLaunchAndPropertiesLoad() throws IOException {
